@@ -7,7 +7,7 @@ import Halogen.Aff as HA
 import Halogen.VDom.Driver (runUI)
 import Halogen.HTML as HH
 
-import Example.Child (component)
+import Example.Component (component)
 
 main :: Effect Unit
 main = HA.runHalogenAff do
